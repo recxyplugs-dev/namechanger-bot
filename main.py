@@ -9,7 +9,7 @@ from telethon.tl.functions.channels import EditTitleRequest
 # ================== ENV CONFIG ==================
 API_ID = int(os.getenv("API_ID", "0"))
 API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("8533020463:AAFBmdt4ns8LCGlkQ1J9im9GFhvkA4TVSXI", "")
 
 # Owner (only this person can add/remove bot admins)
 OWNER_ID = int(os.getenv("OWNER_ID", "0"))

@@ -7,12 +7,12 @@ from telethon import TelegramClient, events
 from telethon.tl.functions.channels import EditTitleRequest
 
 # ================== ENV CONFIG ==================
-API_ID = int(os.getenv("API_ID", "0"))
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("8533020463:AAFBmdt4ns8LCGlkQ1J9im9GFhvkA4TVSXI", "")
+API_ID = int(os.getenv("39464517"))
+API_HASH = os.getenv("9634288cd1a348d16f92c9af68e90778")
+BOT_TOKEN = os.getenv("8533020463:AAFBmdt4ns8LCGlkQ1J9im9GFhvkA4TVSXI")
 
 # Owner (only this person can add/remove bot admins)
-OWNER_ID = int(os.getenv("OWNER_ID", "0"))
+OWNER_ID = int(os.getenv("5924107617"))
 # ===============================================
 
 if not API_ID or not API_HASH or not BOT_TOKEN:
